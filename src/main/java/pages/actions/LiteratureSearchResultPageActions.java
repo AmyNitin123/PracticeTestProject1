@@ -1,5 +1,4 @@
 package pages.actions;
-
 import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -17,8 +16,6 @@ public class LiteratureSearchResultPageActions {
 	}
 
 	public void validateWikipediaRanking(String britanicaLink) {
-
-
 		List<WebElement> litsearchresultlist = literatureSearchResultPageLocators.literaturesearchResultList;
 		{
 		for (int j = 0; j < litsearchresultlist.size(); j++) {
